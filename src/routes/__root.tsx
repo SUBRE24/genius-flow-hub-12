@@ -83,10 +83,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Nova AI — Productivity Assistant" },
       {
         property: "og:description",
-        content: "Draft emails, summarize meetings, plan tasks with AI.",
+        content: "AI-powered productivity suite: draft smart emails, summarize meetings, and plan your tasks in seconds.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Nova AI — Productivity Assistant" },
+      { name: "twitter:description", content: "AI-powered productivity suite: draft smart emails, summarize meetings, and plan your tasks in seconds." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bfd4efe9-0214-4ce7-8097-fe84ef559842/id-preview-e5e12992--d8f87f6d-e733-4e38-ad26-0a26c44d95cc.lovable.app-1783943599594.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bfd4efe9-0214-4ce7-8097-fe84ef559842/id-preview-e5e12992--d8f87f6d-e733-4e38-ad26-0a26c44d95cc.lovable.app-1783943599594.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
